@@ -24,7 +24,7 @@ def playerInput(board):
     if inp >= 1 and inp <=9 and board[inp-1] == '-':
         board[inp-1] = currentPlayer
     else:
-        print('error 666')
+        print('ошибка ввода!!!')
 
 # логика выйгрыша 
 def chekHorozontal(board):   #проверяет выйгрыш по горизонтали
